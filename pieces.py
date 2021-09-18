@@ -1,7 +1,4 @@
-# piece has 4 unique arrangements on the 5x5 grid
-# how to store relative information
 pieces = dict()
-# t = T-shape, l = L-shape, c = cross-shape, s = snake-shape, p = step
 pieces['1'] = [[1]]
 pieces['2'] = [[1,1],[0,0]]
 pieces['3'] = [[0,0,0],[1,1,1],[0,0,0]]
